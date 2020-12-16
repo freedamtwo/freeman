@@ -1,3 +1,77 @@
 body {
-  background-image: url(img/kea.jpeg)
+  margin: 0;
+}
+
+/* header {
+  background-color: gray;
+  height: 60px;
+} */
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.main-wrapper {
+  background-image: url(img/kea.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.main-list h1 { 
+  margin: 0;
+}
+
+.main-wrapper {
+  color: white;
+  opacity: 0.8;
+}
+
+.mail {
+  padding: 0px 45px;
+  color: white;
+  display: inline-block;
+  line-height: 60px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.header-left :hover {
+  opacity: 1;
+}
+
+
+.list {
+  display: flex;
+}
+
+.list a {
+  color: black;
+}
+
+.fa {
+  padding: 40px 15px;
+  width: 100%;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 25%;
+  margin-right: 5px;
+}
+
+.content { 
+  /* background-color: yellow; */
+}
+
+.gallery {
+  /* background-color: green; */
+}
+
+.instagram {
+  /* background-color: pink; */
+}
+
+.twitter {
+  /* background-color: skyblue; */
 }
